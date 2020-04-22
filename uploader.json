@@ -3285,6 +3285,16 @@
             "symbolic_name": "logrotate_conf"
         },
         {
+            "file": "/etc/glance/glance-api.conf",
+            "pattern": [],
+            "symbolic_name": "glance_api_conf"
+        },
+        {
+            "file": "/var/lib/config-data/puppet-generated/glance_api/etc/glance/glance-api.conf",
+            "pattern": [],
+            "symbolic_name": "glance_api_conf"
+        },
+        {
             "file": "/var/log/containers/gnocchi/gnocchi-metricd.log",
             "pattern": [
                 "ObjectNotFound: error opening pool 'metrics'"

@@ -311,6 +311,16 @@
             "symbolic_name": "getsebool"
         },
         {
+            "file": "/etc/glance/glance-api.conf",
+            "pattern": [],
+            "symbolic_name": "glance_api_conf"
+        },
+        {
+            "file": "/var/lib/config-data/puppet-generated/glance_api/etc/glance/glance-api.conf",
+            "pattern": [],
+            "symbolic_name": "glance_api_conf"
+        },
+        {
             "command": "/usr/sbin/gluster volume info",
             "pattern": [],
             "symbolic_name": "gluster_v_info"
