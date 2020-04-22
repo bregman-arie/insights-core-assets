@@ -3365,6 +3365,16 @@
             "symbolic_name": "neutron_plugin_ini"
         },
         {
+            "file": "/etc/neutron/plugins/ml2/sriov_agent.ini",
+            "pattern": [],
+            "symbolic_name": "neutron_sriov_agent"
+        },
+        {
+            "file": "/var/lib/config-data/puppet-generated/neutron/etc/neutron/plugins/ml2/sriov_agent.ini",
+            "pattern": [],
+            "symbolic_name": "neutron_sriov_agent"
+        },
+        {
             "file": "/etc/zipl.conf",
             "pattern": [],
             "symbolic_name": "zipl_conf"
