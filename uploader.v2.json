@@ -1920,6 +1920,11 @@
             "symbolic_name": "jbcs_httpd24_httpd_error_log"
         },
         {
+            "command": "/usr/bin/find -L $HOME /var/lib -name 'instackenv.json'",
+            "pattern": [],
+            "symbolic_name": "instackenv_json"
+        },
+        {
             "file": "/etc/sysconfig/network-scripts/()*ifcfg-.*",
             "pattern": [],
             "symbolic_name": "ifcfg"

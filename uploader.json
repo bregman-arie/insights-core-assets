@@ -3321,6 +3321,11 @@
             "symbolic_name": "gnocchi_conf"
         },
         {
+            "command": "/usr/bin/find -L $HOME /var/lib -name 'instackenv.json'",
+            "pattern": [],
+            "symbolic_name": "instackenv_json"
+        },
+        {
             "file": "/etc/neutron/neutron.conf",
             "pattern": [
                 "[",
