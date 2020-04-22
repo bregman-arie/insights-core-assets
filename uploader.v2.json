@@ -3283,6 +3283,11 @@
             "symbolic_name": "neutron_dhcp_agent_ini"
         },
         {
+            "glob": "/var/lib/neutron/dhcp/*/host",
+            "symbolic_name": "neutron_dhcp_host",
+            "pattern": []
+        },
+        {
             "file": "/etc/neutron/plugin.ini",
             "pattern": [],
             "symbolic_name": "neutron_plugin_ini"
