@@ -3321,6 +3321,16 @@
             "symbolic_name": "gnocchi_conf"
         },
         {
+            "file": "/etc/manila/manila.conf",
+            "pattern": [],
+            "symbolic_name": "manila_conf"
+        },
+        {
+            "file": "/var/lib/config-data/puppet-generated/manila/etc/manila/manila.conf",
+            "pattern": [],
+            "symbolic_name": "manila_conf"
+        },
+        {
             "file": "/etc/neutron/neutron.conf",
             "pattern": [
                 "[",
