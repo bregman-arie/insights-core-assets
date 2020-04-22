@@ -3470,6 +3470,16 @@
             "symbolic_name": "neutron_ovs_agent_log"
         },
         {
+            "file": "/etc/keystone/keystone.conf",
+            "pattern": [],
+            "symbolic_name": "keystone_conf"
+        },
+        {
+            "file": "/var/lib/config-data/puppet-generated/keystone/etc/keystone/keystone.conf",
+            "pattern": [],
+            "symbolic_name": "keystone_conf"
+        },
+        {
             "file": "/usr/libexec/setup-named-chroot.sh",
             "pattern": [
                 "/",
