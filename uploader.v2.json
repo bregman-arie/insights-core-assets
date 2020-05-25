@@ -3652,6 +3652,16 @@
             "pattern": []
         },
         {
+            "glob": "/var/lib/config-data/horizon/etc/openstack-dashboard/enabled/*",
+            "pattern": [],
+            "symbolic_name": "openstack_dashboard_plugins"
+        },
+        {
+            "glob": "/etc/openstack-dashboard/enabled/*",
+            "pattern": [],
+            "symbolic_name": "openstack_dashboard_plugins"
+        },
+        {
             "glob": "/etc/httpd/conf.d/*/*.conf",
             "pattern": [],
             "symbolic_name": "httpd_conf"
