@@ -3524,36 +3524,22 @@
         },
         {
             "file": "/etc/neutron/neutron.conf",
-            "pattern": [
-                "[",
-                "debug",
-                "dhcp_agents_per_network"
-            ],
+            "pattern": [],
             "symbolic_name": "neutron_conf"
         },
         {
             "file": "/var/lib/config-data/puppet-generated/neutron/etc/neutron/neutron.conf",
-            "pattern": [
-                "[",
-                "debug",
-                "dhcp_agents_per_network"
-            ],
+            "pattern": [],
             "symbolic_name": "neutron_conf"
         },
         {
             "file": "/etc/neutron/dhcp_agent.ini",
-            "pattern": [
-                "[",
-                "force_metadata"
-            ],
+            "pattern": [],
             "symbolic_name": "neutron_dhcp_agent_ini"
         },
         {
             "file": "/var/lib/config-data/puppet-generated/neutron/etc/neutron/dhcp_agent.ini",
-            "pattern": [
-                "[",
-                "force_metadata"
-            ],
+            "pattern": [],
             "symbolic_name": "neutron_dhcp_agent_ini"
         },
         {
@@ -3580,18 +3566,12 @@
         },
         {
             "file": "/etc/neutron/l3_agent.ini",
-            "pattern": [
-                "[",
-                "agent_mode"
-            ],
+            "pattern": [],
             "symbolic_name": "neutron_l3_agent_ini"
         },
         {
             "file": "/var/lib/config-data/puppet-generated/neutron/etc/neutron/l3_agent.ini",
-            "pattern": [
-                "[",
-                "agent_mode"
-            ],
+            "pattern": [],
             "symbolic_name": "neutron_l3_agent_ini"
         },
         {
@@ -3615,10 +3595,7 @@
         },
         {
             "file": "/var/lib/config-data/puppet-generated/neutron/etc/neutron/metadata_agent.ini",
-            "pattern": [
-                "[",
-                "auth_url"
-            ],
+            "pattern": [],
             "symbolic_name": "neutron_metadata_agent_ini"
         },
         {
@@ -3637,16 +3614,12 @@
         },
         {
             "file": "/etc/neutron/plugins/ml2/ml2_conf.ini",
-            "pattern": [
-                "["
-            ],
+            "pattern": [],
             "symbolic_name": "neutron_ml2_conf"
         },
         {
             "file": "/var/lib/config-data/puppet-generated/neutron/etc/neutron/plugins/ml2/ml2_conf.ini",
-            "pattern": [
-                "["
-            ],
+            "pattern": [],
             "symbolic_name": "neutron_ml2_conf"
         },
         {
