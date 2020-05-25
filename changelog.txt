@@ -1,4 +1,25 @@
 Insights Client Core Changelog
+
+v 3.0.165 - May 21 2020
+- New filters added to filters.yaml
+
+v 3.0.164 - May 14 2020
+- fix machine-id validation [RHCLOUD-6009]
+- fix issue with compliance hostnames on RHEL6 [RHICOMPL-692]
+- fix issue with compliance subprocess calls [RHICOMPL-670]
+- remove KBACCESS code paths [RHCLOUD-4898]
+- add more exception handling for egg fetch [RHCLOUD-2139]
+
+v 3.0.163 - May 7 2020
+- Always create archive_tmp_dir for compatibility (BZ1831496) [RHCLOUD-6373]
+
+v 3.0.162 - Apr 30 2020
+- Show tested URLs when failing --test-connection [RHCLOUD-6035]
+
+v3.0.161 - Apr 24 2020
+- Validate tags [RHCLOUD-5302]
+- Automatically migrate existing tags.conf files to tags.yaml [RHCLOUD-6008]
+
 v3.0.160 - Apr 16 2020
 - Direct to console after registration (BZ1715980) [RHCLOUD-4094]
 
