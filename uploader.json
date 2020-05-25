@@ -2030,17 +2030,23 @@
             "symbolic_name": "iptables_permanent"
         },
         {
+            "file": "/var/lib/config-data/ironic_api/etc/ironic/ironic.conf",
+            "pattern": [],
+            "symbolic_name": "ironic_conf"
+        },
+        {
+            "file": "/var/lib/config-data/puppet-generated/ironic_api/etc/ironic/ironic.conf",
+            "pattern": [],
+            "symbolic_name": "ironic_conf"
+        },
+        {
             "file": "/etc/ironic/ironic.conf",
-            "pattern": [
-                "["
-            ],
+            "pattern": [],
             "symbolic_name": "ironic_conf"
         },
         {
             "file": "/var/lib/config-data/puppet-generated/ironic/etc/ironic/ironic.conf",
-            "pattern": [
-                "["
-            ],
+            "pattern": [],
             "symbolic_name": "ironic_conf"
         },
         {
