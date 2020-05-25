@@ -977,48 +977,12 @@
         },
         {
             "command": "/bin/ps alxwww",
-            "pattern": [
-                "COMMAND",
-                "bash",
-                "docker",
-                "ora",
-                "pacemakerd",
-                "pcsd",
-                "tuned"
-            ],
+            "pattern": [],
             "symbolic_name": "ps_alxwww"
         },
         {
             "command": "/bin/ps aux",
-            "pattern": [
-                "/usr/bin/docker",
-                "/usr/bin/docker daemon",
-                "/usr/bin/docker-current",
-                "/usr/bin/docker-current daemon",
-                "/usr/bin/dockerd-current",
-                "/usr/bin/hyperkube kubelet",
-                "/usr/bin/openshift start master",
-                "/usr/bin/openshift start node",
-                "COMMAND",
-                "STAP/8.2",
-                "bash",
-                "ceph-osd",
-                "chronyd",
-                "docker",
-                "mysqld",
-                "ntpd",
-                "oc observe csr",
-                "openshift start master api",
-                "openshift start master controllers",
-                "openshift start node",
-                "ora",
-                "pacemakerd",
-                "pcsd",
-                "phc2sys",
-                "postgres",
-                "ptp4l",
-                "tuned"
-            ],
+            "pattern": [],
             "symbolic_name": "ps_aux"
         },
         {
@@ -1028,57 +992,12 @@
         },
         {
             "command": "/bin/ps auxww",
-            "pattern": [
-                "/sbin/multipathd",
-                "/usr/bin/teamd",
-                "/usr/sbin/fcoemon --syslog",
-                "COMMAND",
-                "bash",
-                "catalina.base",
-                "ceilometer-coll",
-                "chronyd",
-                "cmirrord",
-                "docker",
-                "elasticsearch",
-                "goferd",
-                "greenplum",
-                "httpd",
-                "iscsid",
-                "multipath",
-                "nfs-server",
-                "nfsd",
-                "nginx",
-                "nova-compute",
-                "ntpd",
-                "octavia-worker",
-                "ora",
-                "pacemakerd",
-                "pcsd",
-                "pkla-check-auth",
-                "postgres",
-                "smbd",
-                "target_completi",
-                "taskomaticd",
-                "tgtd",
-                "tuned",
-                "virt-who"
-            ],
+            "pattern": [],
             "symbolic_name": "ps_auxww"
         },
         {
             "command": "/bin/ps -ef",
-            "pattern": [
-                "CMD",
-                "bash",
-                "docker",
-                "neutron-ns-metadata-proxy",
-                "nginx: master process",
-                "nginx: worker process",
-                "ora",
-                "pacemakerd",
-                "pcsd",
-                "tuned"
-            ],
+            "pattern": [],
             "symbolic_name": "ps_ef"
         },
         {
@@ -2495,9 +2414,6 @@
         },
         {
             "file": "/var/lib/config-data/puppet-generated/octavia/etc/octavia/octavia.conf",
-<<<<<<< HEAD
-            "pattern": [],
-=======
             "pattern": [
                 "[",
                 "active_connection_max_retries",
@@ -2655,7 +2571,6 @@
                 "vrrp_success_count",
                 "workers"
             ],
->>>>>>> 8e57764ecf0c3ef2abf1643e78bc8d4287a7c700
             "symbolic_name": "octavia_conf"
         },
         {
@@ -3812,10 +3727,5 @@
     "pre_commands": {
         "iface": "/sbin/ip -o link | awk -F ': ' '/.*link\\/ether/ {print $2}'"
     },
-<<<<<<< HEAD
-    "version": "2020-04-16T15:39:51.691847"
-}
-=======
     "version": "2020-05-21T13:20:50.463494"
 }
->>>>>>> 8e57764ecf0c3ef2abf1643e78bc8d4287a7c700
