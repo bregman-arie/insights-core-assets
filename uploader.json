@@ -3650,6 +3650,21 @@
             "symbolic_name": "neutron_ml2_conf"
         },
         {
+            "file": "/etc/neutron/plugins/ml2/openvswitch_agent.ini",
+            "pattern": [],
+            "symbolic_name": "ovs_agent_conf"
+        },
+        {
+            "file": "/var/lib/config-data/puppet-generated/neutron/etc/neutron/plugins/ml2/openvswitch_agent.ini",
+            "pattern": [],
+            "symbolic_name": "ovs_agent_conf"
+        },
+        {
+            "file": "/var/lib/config-data/neutron/etc/neutron/plugins/ml2/openvswitch_agent.ini",
+            "pattern": [],
+            "symbolic_name": "ovs_agent_conf"
+        },
+        {
             "file": "/var/log/neutron/openvswitch-agent.log",
             "pattern": [
                 "Agent main thread died of an exception",
