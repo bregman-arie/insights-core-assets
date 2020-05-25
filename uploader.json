@@ -7324,27 +7324,7 @@
                 {
                     "archive_file_name": "/insights_commands/ps_aux",
                     "command": "/bin/ps aux",
-                    "pattern": [
-                        "/usr/bin/docker",
-                        "/usr/bin/docker daemon",
-                        "/usr/bin/docker-current",
-                        "/usr/bin/docker-current daemon",
-                        "/usr/bin/dockerd-current",
-                        "/usr/bin/openshift start master",
-                        "/usr/bin/openshift start node",
-                        "COMMAND",
-                        "STAP",
-                        "STAP/8.2",
-                        "catalina.base",
-                        "ceph-osd",
-                        "chronyd",
-                        "java",
-                        "keystone-all",
-                        "ntpd",
-                        "phc2sys",
-                        "ptp4l",
-                        "tomcat"
-                    ]
+                    "pattern": []
                 }
             ]
         },
