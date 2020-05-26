@@ -1174,6 +1174,16 @@
             "symbolic_name": "software_collections_list"
         },
         {
+            "command": "/usr/sbin/subscription-manager list --consumed",
+            "pattern": [],
+            "symbolic_name": "subscription_manager_consumed"
+        },
+        {
+            "command": "/usr/sbin/subscription-manager list --installed",
+            "pattern": [],
+            "symbolic_name": "subscription_manager_installed"
+        },
+        {
             "command": "/usr/sbin/subscription-manager identity",
             "pattern": [],
             "symbolic_name": "subscription_manager_id"
