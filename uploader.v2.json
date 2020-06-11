@@ -3457,6 +3457,16 @@
             "symbolic_name": "gnocchi_conf"
         },
         {
+            "file": "/etc/neutron_lbaas.conf",
+            "pattern": [],
+            "symbolic_name": "neutron_lbaas_conf"
+        },
+        {
+            "file": "/var/lib/config-data/puppet-generated/neutron-lbaas/etc/neutron_lbaas.conf",
+            "pattern": [],
+            "symbolic_name": "neutron_lbaas_conf"
+        },
+        {
             "file": "/etc/neutron/neutron.conf",
             "pattern": [
                 "[",
