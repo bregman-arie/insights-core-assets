@@ -1207,6 +1207,46 @@
             "symbolic_name": "sysctl"
         },
         {
+            "command": "/usr/bin/openstack subnet list",
+            "pattern": [],
+            "symbolic_name": "openstack_subnet_list"
+        },
+        {
+            "command": "/usr/bin/openstack router list",
+            "pattern": [],
+            "symbolic_name": "openstack_router_list"
+        },
+        {
+            "command": "/usr/bin/openstack catalog list",
+            "pattern": [],
+            "symbolic_name": "openstack_catalog_list"
+        },
+        {
+            "command": "/usr/bin/openstack endpoint list",
+            "pattern": [],
+            "symbolic_name": "openstack_endpoint_list"
+        },
+        {
+            "command": "/usr/bin/openstack flavor list",
+            "pattern": [],
+            "symbolic_name": "openstack_flavor_list"
+        },
+        {
+            "command": "/usr/bin/openstack image list",
+            "pattern": [],
+            "symbolic_name": "openstack_image_list"
+        },
+        {
+            "command": "/usr/bin/openstack network agent list",
+            "pattern": [],
+            "symbolic_name": "openstack_network_agent_list"
+        },
+        {
+            "command": "/usr/bin/openstack extension list",
+            "pattern": [],
+            "symbolic_name": "openstack_openstack_extension_list"
+        },
+        {
             "command": "/bin/systemctl cat rpcbind.socket",
             "pattern": [],
             "symbolic_name": "systemctl_cat_rpcbind_socket"
