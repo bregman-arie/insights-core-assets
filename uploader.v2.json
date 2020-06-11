@@ -198,6 +198,11 @@
             "symbolic_name": "dmesg"
         },
         {
+            "command": "for fs in $(mount | cut -d' ' -f1 | grep \/dev\/); do xfs_info $fs; done",
+            "pattern": [],
+            "symbolic_name": "xfs_info"
+        },
+        {
             "command": "/usr/sbin/dmidecode",
             "pattern": [],
             "symbolic_name": "dmidecode"
